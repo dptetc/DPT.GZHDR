@@ -1,0 +1,435 @@
+//----------------------------------
+// REPLACING ORIGINAL OBJECT LIGHTS
+//----------------------------------
+
+// ------------------
+// -- Doom Weapons --
+// ------------------
+
+// Bullet puff
+
+object BulletPuff
+{
+	frame PUFFA { light RedLight100 }
+	frame PUFFB { light RedLight100 }
+}
+
+// Rocket
+object Rocket
+{
+	frame MISLA { light RedLight100    }
+
+	frame MISLB { light RedLight100 }
+	frame MISLC { light RedLight100 }
+	frame MISLD { light RedLight100 }
+}
+
+// Plasma
+object PlasmaBall
+{
+	frame PLSSA { light BlueLight100 }
+	frame PLSSB { light BlueLight100 }
+
+	frame PLSEA { light BlueLight100 }
+	frame PLSEB { light BlueLight100 }
+	frame PLSEC { light BlueLight100 }
+	frame PLSED { light BlueLight100 }
+	frame PLSEE { light BlueLight100 }
+}
+
+// BFG
+object BFGBall
+{
+	frame BFS1A { light GreenLight100 }
+	frame BFS1B { light GreenLight100 }
+
+	frame BFE1A { light GreenLight100 }
+	frame BFE1B { light GreenLight100 }
+	frame BFE1C { light GreenLight100 }
+	frame BFE1D { light GreenLight100 }
+	frame BFE1E { light GreenLight100 }
+	frame BFE1F { light GreenLight100 }
+}
+
+
+object BFGExtra
+{
+	frame BFE2A { light GreenLight100    }
+	frame BFE2B { light GreenLight100 }
+	frame BFE2C { light GreenLight100 }
+	frame BFE2D { light GreenLight100 }
+}
+
+// ----------------------
+// -- Doom Decorations --
+// ----------------------
+
+// Barrel
+
+object ExplosiveBarrel
+{
+	frame BAR1  { light GreenLight100    }
+
+	frame BEXPC { light RedLight100 }
+	frame BEXPD { light RedLight100 }
+	frame BEXPE { light RedLight100 }
+}
+
+// Floor lamp
+
+object Column
+{
+	frame COLU { light Light100 }
+}
+
+// Short tech lamp
+
+object TechLamp2
+{
+	frame TLP2 { light Light100 }
+}
+
+// Tall tech lamp
+object TechLamp
+{
+	frame TLMP { light Light100 }
+}
+
+// Tall red torch
+
+object RedTorch
+{
+	frame TRED { light RedLight100 }
+}
+
+// Tall green torch
+
+object GreenTorch
+{
+	frame TGRN { light GreenLight100 }
+}
+
+// Tall blue torch
+
+object BlueTorch
+{
+	frame TBLU { light BlueLight100 }
+}
+
+// Small red torch
+
+object ShortRedTorch
+{
+	frame SMRT { light RedLight100 }
+}
+
+// Small green torch
+
+object ShortGreenTorch
+{
+	frame SMGT { light GreenLight100 }
+}
+
+// Small blue torch
+
+object ShortBlueTorch
+{
+	frame SMBT { light BlueLight100 }
+}
+
+// Burning barrel
+
+object BurningBarrel
+{
+	frame FCAN { light YellowLight100 }
+}
+
+// Skulls w/candles
+
+object HeadCandles
+{
+	frame POL3 { light RedLight100 }
+}
+
+// Candle
+
+object Candlestick
+{
+	frame CAND { light RedLight100 }
+}
+
+// Candelabra
+
+object Candelabra
+{
+	frame CBRA { light RedLight100 }
+}
+
+// ----------------
+// -- Doom Items --
+// ----------------
+
+// Soul Sphere
+
+object SoulSphere
+{
+	frame SOUL { light BlueLight100 }
+}
+
+// Invulnerability Sphere
+
+object InvulnerabilitySphere
+{
+	frame PINV { light GreenLight100 }
+}
+
+// Blur Sphere
+
+object BlurSphere
+{
+	frame PINS { light Light100 }
+
+	frame PINSA { light Light100 }
+	frame PINSB { light Light100 }
+	frame PINSC { light Light100 }
+	frame PINSD { light Light100 }
+}
+
+// Health Potion
+
+object HealthBonus
+{
+	frame BON1 { light BlueLight100 }
+}
+
+// Armour Helmet
+
+object ArmorBonus
+{
+	frame BON2 { light GreenLight100 }
+}
+
+// Blue Keys
+object BlueCard
+{
+	frame BKEY { light BlueLight100 }
+}
+
+object BlueSkull
+{
+	frame BSKU { light BlueLight100 }
+}
+
+// Yellow Keys
+
+object YellowCard
+{
+	frame YKEY { light YellowLight100 }
+}
+
+object YellowSkull
+{
+	frame YSKU { light YellowLight100 }
+}
+
+// Red Keys
+
+object RedCard
+{
+	frame RKEY { light RedLight100 }
+}
+
+object RedSkull
+{
+	frame RSKU { light RedLight100 }
+}
+
+// Green armour
+
+object GreenArmor
+{
+	frame ARM1A { light GreenLight100 }
+	frame ARM1B { light GreenLight100 }
+}
+
+// Blue armour
+
+object BlueArmor
+{
+	frame ARM2A { light BlueLight100 }
+	frame ARM2B { light BlueLight100 }
+}
+
+// ------------------
+// -- Doom Enemies --
+// ------------------
+
+// Zombies
+
+object ZombieMan
+{
+	frame POSSF { light RedLight100 }
+}
+
+object ShotgunGuy
+{
+	frame SPOSF { light RedLight100 }
+}
+
+object ChaingunGuy
+{
+	frame CPOSE { light RedLight100 }
+	frame CPOSF { light RedLight100 }
+}
+
+object DoomPlayer
+{
+	frame PLAYF { light RedLight100 }
+}
+
+// Doom imp fireball
+
+object DoomImpBall
+{
+	frame BAL1A { light RedLight100    }
+	frame BAL1B { light RedLight100    }
+
+	frame BAL1C { light RedLight100 }
+	frame BAL1D { light RedLight100 }
+	frame BAL1E { light RedLight100 }
+}
+
+// Spectre
+
+object Spectre
+{
+	frame SARG { light Light100 }
+}
+
+// Cacodemon fireball
+
+object CacodemonBall
+{
+	frame BAL2A { light RedLight100 }
+	frame BAL2B { light RedLight100 }
+
+	frame BAL2C { light RedLight100 }
+	frame BAL2D { light RedLight100 }
+	frame BAL2E { light RedLight100 }
+}
+
+// Baron / Hell Knight fireball
+
+object BaronBall
+{
+	frame BAL7A { light GreenLight100    }
+	frame BAL7B { light GreenLight100    }
+
+	frame BAL7C { light GreenLight100 }
+	frame BAL7D { light GreenLight100 }
+	frame BAL7E { light GreenLight100 }
+}
+
+// Lost Soul
+
+object LostSoul
+{
+	frame SKULA { light RedLight100  }
+	frame SKULB { light RedLight100  }
+	frame SKULC { light RedLight100  }
+	frame SKULD { light RedLight100  }
+	frame SKULE { light RedLight100  }
+	frame SKULF { light RedLight100  }
+	frame SKULG { light RedLight100  }
+
+	frame SKULH { light RedLight100 }
+	frame SKULI { light RedLight100 }
+	frame SKULJ { light RedLight100 }
+	frame SKULK { light RedLight100 }
+}
+
+// Mancubus Fireball
+object FatShot
+{
+	frame MANFA { light RedLight100 }
+	frame MANFB { light RedLight100 }
+
+	frame MISLB { light YellowLight100 }
+	frame MISLC { light YellowLight100 }
+	frame MISLD { light YellowLight100 }
+}
+
+// Arachnotron Fireball
+
+object ArachnotronPlasma
+{
+	frame APLSA { light GreenLight100 }
+	frame APLSB { light GreenLight100 }
+
+	frame APBXA { light GreenLight100 }
+	frame APBXB { light GreenLight100 }
+	frame APBXC { light GreenLight100 }
+	frame APBXD { light GreenLight100 }
+	frame APBXE { light GreenLight100 }
+}
+
+// Revenant tracer
+
+object RevenantTracer
+{
+	frame FATBA { light OrangeLight100    }
+	frame FATBB { light OrangeLight100    }
+
+	frame FBXPA { light RedLight100 }
+	frame FBXPB { light RedLight100 }
+	frame FBXPC { light RedLight100 }
+}
+
+// Arch Vile Fire
+
+object ArchvileFire
+{
+	frame FIREA { light OrangeLight100 }
+	frame FIREB { light OrangeLight100 }
+	frame FIREC { light OrangeLight100 }
+	frame FIRED { light OrangeLight100 }
+	frame FIREE { light OrangeLight100 }
+	frame FIREF { light OrangeLight100 }
+	frame FIREG { light OrangeLight100 }
+	frame FIREH { light OrangeLight100 }
+}
+
+// Arch-vile
+
+object Archvile
+{
+	frame VILEH { light YellowLight100 }
+	frame VILEI { light YellowLight100 }
+	frame VILEJ { light YellowLight100 }
+	frame VILEK { light YellowLight100 }
+	frame VILEL { light YellowLight100 }
+	frame VILEM { light YellowLight100 }
+	frame VILEN { light YellowLight100 }
+	frame VILEO { light YellowLight100 }
+	frame VILEP { light YellowLight100 }
+
+	frame VILE[ { light OrangeLight100 }
+	frame VILE\ { light OrangeLight100 }
+	frame VILE] { light OrangeLight100 }
+}
+
+// ------------------
+// -- Doom Effects --
+// ------------------
+
+object TeleportFog
+{
+	frame TFOGA { light GreenLight100 }
+	frame TFOGB { light GreenLight100 }
+	frame TFOGC { light GreenLight100 }
+	frame TFOGD { light GreenLight100 }
+	frame TFOGE { light GreenLight100 }
+	frame TFOGF { light GreenLight100 }
+	frame TFOGI { light GreenLight100 }
+	frame TFOGJ { light GreenLight100 }
+}
